@@ -45,7 +45,7 @@ Atuo no desenvolvimento de aplicações web, integração com sistemas corporati
 
 #### Sales Forecast Web
 
-Plataforma full stack que substitui planilhas de forecast de vendas por um fluxo colaborativo com aprovação, auditoria e previsão assistida por IA. Motor de IA testa 6 modelos estatísticos de série temporal por produto/unidade e seleciona o de menor erro. Controla hoje o forecast de mais de 600 SKUs em 8 unidades de venda, nacionais e de exportação, com integração bidirecional a ERP.
+Plataforma full stack que substitui planilhas de forecast de vendas por um fluxo colaborativo com aprovação, auditoria e previsão assistida por IA. Motor de IA testa 6 modelos estatísticos de série temporal por produto/unidade e seleciona o de menor erro. Controla hoje o forecast de mais de 600 SKUs em 8 unidades de venda, nacionais e de exportação, com integração bidirecional ao ERP.
 
 **Stack:** `React 19` `TypeScript` `Vite` `Node.js` `Express` `Prisma` `PostgreSQL` `Apache Airflow` `Docker`
 
@@ -55,7 +55,7 @@ Plataforma full stack que substitui planilhas de forecast de vendas por um fluxo
 
 #### FinanceFlow
 
-Plataforma modular que automatiza rateio contábil, concilia documentos fiscais e lança automaticamente num ERP. Arquitetura de módulos plugáveis: cada processo é descoberto automaticamente no startup, sem alterar o núcleo do sistema. Economiza de 2 a 3 dias de trabalho de 2 colaboradores por ciclo nos processos já automatizados.
+Plataforma modular que automatiza rateio contábil, concilia documentos fiscais e lança automaticamente no ERP. Arquitetura de módulos plugáveis: cada processo é descoberto automaticamente no startup, sem alterar o núcleo do sistema. Economiza de 2 a 3 dias de trabalho de 2 colaboradores por ciclo nos processos já automatizados.
 
 **Stack:** `React 19` `TypeScript` `Vite` `FastAPI` `SQLAlchemy` `PostgreSQL` `Docker`
 
